@@ -208,7 +208,7 @@ class ManagementWelcome extends Component {
                       }
                       title="Reporting"
                       onClick={() => this.switchSection('reporting')}
-                      description="Check your stored Wazuh reports."
+                      description="Check your stored EH-ISMAC reports."
                     />
                   </EuiFlexItem>
                 </EuiFlexGroup>
