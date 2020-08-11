@@ -121,7 +121,7 @@ export class ReportingService {
       this.showToast(
         'success',
         'Created report',
-        'Success. Go to Wazuh > Management > Reporting',
+        'Success. Go to EH-ISMAC > Management > Reporting',
         4000
       );
       return;
@@ -168,7 +168,7 @@ export class ReportingService {
       this.showToast(
         'success',
         'Created report',
-        'Success. Go to Wazuh > Management > Reporting',
+        'Success. Go to EH-ISMAC > Management > Reporting',
         4000
       );
       return;

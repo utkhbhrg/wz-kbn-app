@@ -1,12 +1,12 @@
 {
-  "name": "wazuh",
+  "name": "eh-ismac",
   "version": "3.13.1",
   "revision": "0883",
   "code": "0883-0",
   "kibana": {
     "version": "7.8.0"
   },
-  "description": "Wazuh app",
+  "description": "EH-ISMAC App",
   "main": "index.js",
   "keywords": [
     "kibana",
@@ -14,7 +14,7 @@
     "ossec"
   ],
   "node_build": "8.14.0",
-  "author": "Wazuh, Inc",
+  "author": "Exploit Hunters, Inc",
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
