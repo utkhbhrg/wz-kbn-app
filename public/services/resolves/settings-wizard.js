@@ -211,12 +211,12 @@ export function settingsWizard(
               // Try to set some API entry as default
               const defaultApi = await tryToSetDefault(data.data);
               setUpCredentials(
-                'Wazuh App: Default API has been updated.',
+                'EH-ISMAC: Default API has been updated.',
                 defaultApi
               );
             } else {
               setUpCredentials(
-                'Wazuh App: Please set up Wazuh API credentials.'
+                'EH-ISMAC: Please set up API credentials.'
               );
             }
             $location.path('health-check');
@@ -248,20 +248,20 @@ export function settingsWizard(
                 // Try to set some as default
                 const defaultApi = await tryToSetDefault(data.data);
                 setUpCredentials(
-                  'Wazuh App: Default API has been updated.',
+                  'EH-ISMAC: Default API has been updated.',
                   defaultApi
                 );
                 $location.path('health-check');
               } else {
                 setUpCredentials(
-                  'Wazuh App: Please set up Wazuh API credentials.',
+                  'EH-ISMAC: Please set up API credentials.',
                   false
                 );
               }
             }
           })
           .catch(error => {
-            setUpCredentials('Wazuh App: Please set up Wazuh API credentials.');
+            setUpCredentials('EH-ISMAC: Please set up API credentials.');
           });
       }
     }
